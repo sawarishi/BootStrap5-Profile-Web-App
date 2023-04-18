@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	
+	
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container" >
+			<a class="navbar-brand" href="index.html">My Portfolio</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item" data-scroll data-scroll-offset="50" data-scroll-to="about">
+						<a class="nav-link" href="projects.html">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="Project 1" class="py-5" style="background-color: #9a9596;opacity:0.9;">
+		<div class="container" >
+			<h1 class="display-4">Experiments with ResNet</h1>
+			<p class="lead">Analyzed ResNet architecture for image classification with CIFAR-10 dataset using 4 types of ResNet architectures: ResNet-18, ResNet-
+				34, ResNet-50 and ResNet-101. It concluded with ResNet50 being optimal for CIFAR-10 dataset when it comes to bottle- neck with an
+				accuracy of 98.01%.</p>
+			
+		</div>
+    </section>
+	<section id="Introduction" class="py-5">
+		<div class="container" >
+			<h1 class="display-4">Introduction</h1>
+			<p>In this project, we are going to build ResNet architecture
+				for image classification. ResNet adds
+				original input to the loss function and tackles the
+				vanishing gradient problem. We will be using
+				Cifar-10 dataset consisting of 60000 images with
+				10 classes. We will check how ResNet adds value
+				to classification problems with a number of layers
+				and identity mapping.</p>
+		</div>
+    </section>
+	<section id="Features" class="py-2">
+		<div class="container" >
+			<h1 class="display-4">Problem Statement</h1>
+			<p>Our goal is to build a residual network or ResNet architecture
+				capable of getting trained and predict images of the
+				ciphar -10 dataset with low error rate and is time efficient.
+				To understand the problem, we need answers to a couple of
+				questions:</p>
+			<p>1) For a small dataset such as Ciphar-10, how many layers
+				are needed? Compared to ImageNet, Cifar-10 could
+				be considered a baby dataset. But that’s the beauty of the
+				problem. We need to check how would ResNet perform
+				with such data.</p>
+			<p>2) Can we make ResNet more efficient? Is it possible to
+				make ResNet more efficient with simple alteration. This can
+				be considered a small experimentation along with building
+				of the ResNet architecture.</p>
+			
+		</div>
+    </section>
+	<section id="Features" class="py-2">
+		<div class="container" >
+			<h1 class="display-4"> Proposed Solution</h1>
+			<p>We intend to build a ResNet architecture from scratch. The
+				architecture will be used on Cifar-10 dataset. We will have
+				at least two to three variations in number of layers.The variation in number of layers will allow us to examine
+				how ResNet performs on a dataset when different number
+				of layers are used.</p>
+			<p>Also, we into to examine if simple alterations can improve
+				Residual Networks performance or if we could get a lower
+				error rate. This is simply for experimentation purpose.</p>
+			
+		</div>
+    </section>
+</div>
+
+</body>
+</html>
+    
+
+
